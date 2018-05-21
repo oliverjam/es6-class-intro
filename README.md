@@ -152,7 +152,7 @@ const a = myVar ? import('./a') : import './something'; //would not
 ## Exercise
 
 1.  Clone the project and run `npm i`
-2.  `npm t` to run the test watcher
-3.  Open `character.js` and `hero.js`: ignore the ugly prototype-based code
-4.  Rewrite `Character` and `Hero` to use ES6 classes and ES Modules
-5.  Keep all the tests passing!
+1.  `npm t` to run the test watcher
+1.  Rewrite `Character` and `Hero` to use ES6 classes and ES Modules
+1. You may need to change `index.js` too
+1.  Keep all the tests passing!
