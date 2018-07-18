@@ -112,7 +112,7 @@ export const a = 1;
 export const b = 2;
 ```
 
-### Imports
+### Imports
 
 There are also two kinds of imports: default and named. This is how you import something that was default-exported:
 
