@@ -75,7 +75,7 @@ spot.getName(); // Spot
 
 ES Modules are similar to Node's `require` syntax, but are a standardised part of the JS language. They let you split your code up and share it across multiple smaller files, as well as easily import external dependencies.
 
-It's worth noting that Node still doesn't have support for ES Modules (and most browsers are still in the process of finalising support). This means we need to use a tool called a bundler to parse all our imports and "bundle" them into a single file that the browser will understand.
+Node 10 has [experimental support](https://nodejs.org/dist/latest-v10.x/docs/api/esm.html) for ES Modules (but you have to pass the `--experimental-modules` flag and use the `.mjs` file extension). The [newest browsers](https://caniuse.com/#search=modules) now have initial support, but generally we need to use a tool called a bundler to parse all our imports and "bundle" them into a single file that all browsers will understand.
 
 We'll cover this in more detail later—for now this project is set up so the imports should work fine.
 
